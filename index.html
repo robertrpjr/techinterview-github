@@ -1,61 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <title>Praeses HW</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Praese Technical HW</title>
 
-    <!-- Bootstrap core CSS -->
-<!-- <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
-
-<!-- Bootswatch CSS -->
-
-<link href="https://bootswatch.com/4/simplex/bootstrap.min.css" rel="stylesheet"> 
-<link rel="stylesheet" href="css/style.css">
-
-
+    <!-- Bootswatch CSS -->
+    <link href="https://bootswatch.com/3/darkly/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Praeses/techinterview</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="">Github Public Events</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <button id="reload" onclick=location="">Reload</button>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <main role="main" class="container">
+    <div class="container">
 
-      <div class="starter-template">
-        <h1>GitHub Public Events Feed</h1>
-        <p class="lead">Minimum Requirements<br>
+      <div id="results"></div>
 
-The client will have a title clearly indicating the purpose and content of the client.<br>
-The client will be touch friendly.<br>
-The client will display a feed of GitHub public events available at the following endpoint public Events url: https://api.github.com/events <br>
-Events Documentation: https://developer.github.com/v3/activity/events/<br>
-Each public event displayed in the feed will display user friendly values for:
-Username, Event Type,Repository to which the event applies<br>
-The client will have a button to refresh the feed of public events.<br>
-The client will allow a user to tap the public event and display event details.</p>
-      </div>
-    </main><!-- /.container -->
+    </div><!-- /.container -->
 
-<div class="results">
-
-</div>
-	
-<!-- jQuery -->
-<script  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    <!-- using jQuery -->
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
   crossorigin="anonymous"></script>
-<!-- from bootstrapCDN -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
