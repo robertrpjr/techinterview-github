@@ -1,4 +1,4 @@
-
+//${datum.payload.commits.url}
 $.ajax({
 		url: 'https://api.github.com/events',
 		data:{
@@ -9,19 +9,27 @@ $.ajax({
 			$('#results').html(data.map(datum =>
 				`
 				<button class="tapMe">
-				<div class="panel panel-default">
-					<div class="panel-heading">
+					<div class="panel panel-default">
+						<div class="panel-heading">
 						  <h3 class="panel-title">Username: ${datum.actor.login}</h3>
+						</div>
+					<div class="col-md-3">
+						<img class="thumbnail" src="${datum.actor.avatar_url}"
 					</div>
-					<div class="panel-body">
+					<div class="col-md-9">
 						Type: ${datum.type} <br>
 						Repo Name: ${datum.repo.name}
 					</div>
 				  </div>
-				  </button>
-				`))
+				</button>
+				  
+				`
+				))
+				//$('.tapMe').click(function(){
+				//	window.open = '${datum.payload.commits.url}'; 
+				//	});
 			})
-
+			
 
 
 /*

@@ -11,3 +11,9 @@ background-color: black;
 min-width: 45px;
 min-height: 45px;
 }
+.thumbnail{
+width:33%;    
+}
+.panel-body{
+float:right;
+}
