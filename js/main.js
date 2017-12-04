@@ -1,4 +1,4 @@
-//${datum.payload.commits.url}
+$(document).ready(function(){
 $.ajax({
 		url: 'https://api.github.com/events',
 		data:{
@@ -22,13 +22,15 @@ $.ajax({
 					</div>
 				  </div>
 				</button>
-				  
-				`
-				))
-				//$('.tapMe').click(function(){
-				//	window.open = '${datum.payload.commits.url}'; 
-				//	});
+				`,
+				$('#results').on('click', function(){
+					console.log('${datum.payload}');
+				})
+				))	
 			})
+		})
+
+
 			
 
 
