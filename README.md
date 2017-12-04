@@ -1,3 +1,9 @@
+//Reviewer Instructions:
+//Created client UI using HTML, CSS, JS, jQuery/AJAX
+//Should run on all platforms/devices, dynamic CSS utilized
+//The "refresh button" is the title, which is click-able
+//each item displayed is a selectable button, clicking any button will change the displayed text toggling between basic requsted info, //and all details of the event
+
 # Technical Interview Homework: GitHub Dashboard
 
 
