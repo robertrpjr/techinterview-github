@@ -21,7 +21,7 @@ The purpose of this exercise is to assess the candidate’s ability to build cro
 5. Create a pull request prior to the due date to have your submission reviewed
 
 Once the submission is reviewed the candidate will be notified and possibly invited to participate in a follow-up interview where interviewers will collaboratively work with the candidate to review the submission, discuss possible enhancements, and possibly implement a new feature. 
-
+ 
 #####Additional Notes...
 
 - Feel free to ask your point of contact any clarifying questions you might have. 
