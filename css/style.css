@@ -8,25 +8,22 @@
 @media screen and (min-width: 505px){ 
 
     .tapMe{
-        position: relative;
         width:100%;
         margin: 0px 10px 40px 0px;
         min-width: 45px;
         min-height: 45px;
         font-size: 2em;
         word-wrap: break-word;
+        height: 100%;
 }}
 
 @media screen and (max-width: 504px){
     .tapMe{
-        position: relative;
         width:100%;
         margin: 0px 10px 40px 0px;
-        min-width: 45px;
-        min-height: 45px;
         word-wrap: break-word;
         height: 100%;
-        
+        border-radius: 0px;        
 }}
 
 .navbar{
