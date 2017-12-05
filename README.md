@@ -3,7 +3,7 @@
 //Should run on all platforms/devices, dynamic CSS utilized
 //The "refresh button" is the title, which is click-able
 //each item displayed is a selectable button, clicking any button will change the displayed text toggling between basic requsted info, //and all details of the event
-
+//page can also be viewed on: https://s3.us-east-2.amazonaws.com/rpjr/GitHubAPI/index.html
 # Technical Interview Homework: GitHub Dashboard
 
 
